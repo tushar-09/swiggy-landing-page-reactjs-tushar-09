@@ -1,0 +1,27 @@
+.footer{
+    background-color: black;
+    padding:20px 70px;
+    color: #8a8a8a;
+    line-height:40px;
+    border-bottom: 1px solid #4d4d4d;
+    color:#fff;
+  }
+  .footer .flex a{
+    display: block;
+  }
+  .footer .flex{
+    display: flex;
+    justify-content: space-evenly;
+  flex-wrap: wrap;
+  }
+  .footer a{
+    text-decoration: none;
+    color:#fff;
+  }
+  .footer p{
+      color:gray;
+
+  }
+  .footer a:hover{
+    color:gray;
+  }

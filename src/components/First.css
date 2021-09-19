@@ -1,0 +1,134 @@
+
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+.main__container{
+    display: flex;
+ justify-content: center;
+    align-items: flex-start;
+    min-height: 500px;
+    
+}
+
+.left__div{
+    padding-top: 8px;
+    padding-left:50px;
+    height:60vh;
+    width: 50vw;
+    min-width: 300px;
+    padding-top:30px;
+}
+.left__div .top{
+    min-width: 300px;
+}
+.left__div > .top img{
+    width:130px;
+    object-fit: contain;
+}
+.left__div > .top > .buttons button{
+    padding:8px 13px;
+    border:none;
+    font-weight:bold;
+}
+.left__div > .top > .buttons .login{
+    background-color: #fff; 
+}
+.left__div > .top > .buttons .signup{
+    background-color: #000;
+    color:#fff; 
+}
+.left__div > .top{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.right__div{
+    width:50vw;
+    padding:8px 25px;
+    margin-top: 0;
+    text-align: center;
+}
+.right__div img{
+   position: relative;
+   top:0;
+   right:0;
+
+   width: 40vw;
+   object-fit: contain;
+}
+.restaurant__near{
+    margin-top: 80px;
+   min-width: 300px;
+}
+.restaurant__near p{
+    margin-top: 8px;
+    margin-bottom: 10px;
+    font-size: large;
+    font-weight: 600;
+    color:#6c6f7b;
+
+}
+.input__class{
+    margin-top: 50px;
+    width: 50vw;
+    min-width: 300px;
+
+}
+.input__class input{
+    padding:10px 4px;
+    width: 35vw;
+    font-weight: bold;
+    color:#c4c5ca;
+    border:2px solid #ebebed;
+}
+.input__class button{
+    height:40px;
+    padding:6px;
+    border-collapse: collapse;
+    border: none;
+    background-color: #fc8019;
+    color: #fff;
+    font-weight: bold;
+}
+
+.bottom{
+    margin-top: 50px;
+}
+.bottom p{
+    color:#9ea0a9 ;
+    font-size: 17px;
+    margin-bottom: 6px;
+}
+.bottom span:nth-of-type(2n) {
+    color:#9ea0a9 ;
+    font-weight: bold;
+}
+.bottom span:nth-of-type(2n-1) {
+    font-weight: bold;
+    color:#696c79;
+}
+
+@media (max-width: 1250px) {
+    .right__div{
+   display: none;
+     }
+     .left__div{
+         padding-right: 10px;
+         padding-left: 10px;
+         height:500px;
+         width: 80vw;
+     }
+     .left__div > .top img{
+         width: 35vw;
+     }
+     .left__div > .top > .buttons button{
+        padding:2vh 3vw;
+       
+    }
+    .input__class{
+        width: 80vw;
+    }
+    .input__class input{
+     width: 65vw;
+    }
+}
