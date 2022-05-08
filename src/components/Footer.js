@@ -1,8 +1,8 @@
 import React from "react";
 import ButtonName from "./ButtonName";
-import "./Fourth.css";
+import "./Footer.css";
 import List from './List';
-function Fourth() {
+function Footer() {
   return (
     <>
       <footer className="footer">
@@ -91,4 +91,4 @@ function Fourth() {
     </>
   );
 }
-export default Fourth;
+export default Footer;

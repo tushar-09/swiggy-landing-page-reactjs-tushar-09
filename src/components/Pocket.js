@@ -1,7 +1,7 @@
 import React from 'react';
 import ButtonName from './ButtonName';
-import './Third.css';
-function Third(){
+import './Pocket.css';
+function Pocket(){
     return(
      <div className="pocket">
      <div className="wrap">
@@ -20,4 +20,4 @@ function Third(){
      </div>
     )
 }
-export default Third;
+export default Pocket;

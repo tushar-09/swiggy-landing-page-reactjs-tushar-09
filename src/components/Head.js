@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import './First.css'
-import Text from './Text';
+import './head.css'
+import Change from './Change';
 import { BiCurrentLocation } from "react-icons/bi";
-function First() {
+function Head() {
     const [data , setData] = useState('');
     
     return (
@@ -21,7 +21,7 @@ function First() {
             </div>
 
             <div className="restaurant__near">
-                <h1><Text /></h1>
+                <h1><Change /></h1>
                 <p>Order food from favourite restaurants near you.</p>
             </div>
             <div className="input__class"><form>
@@ -51,4 +51,4 @@ function First() {
     )
 }
 
-export default First;
+export default Head;

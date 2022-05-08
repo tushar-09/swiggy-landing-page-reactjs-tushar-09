@@ -1,6 +1,6 @@
 import React from 'react';
-import './Second.css';
-function Name(props){
+import './feature.css';
+function Feature(props){
     return(
      <div className="wrap">
          <img src={props.data.src} height={props.data.height} width={props.data.width} />
@@ -9,4 +9,4 @@ function Name(props){
      </div>
     )
 }
-export default Name;
+export default Feature;

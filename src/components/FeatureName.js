@@ -1,8 +1,8 @@
 import React from 'react';
-import Name from './Name';
-import './Second.css';
+import Feature from './Feature';
+import './feature.css';
 
-function Second(){
+function FeatureName(){
     const name1={
         src:"https://web.archive.org/web/20210903174711im_/https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_210,h_398/4x_-_No_min_order_x0bxuf",
         height:"200px",
@@ -28,11 +28,11 @@ function Second(){
     }
     return(
         <div className="feature">
-            <Name data={name1}></Name>
-            <Name data={name2}></Name>
-            <Name data={name3}></Name>
+            <Feature data={name1}></Feature>
+            <Feature data={name2}></Feature>
+            <Feature data={name3}></Feature>
 
         </div>
     )
 }
-export default Second;
+export default FeatureName;
